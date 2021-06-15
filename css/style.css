@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Samim";
+    src: url("../fonts/Samim-FD.eot");
+    src: url("../fonts/Samim-FD.eot") format("embedded-opentype"), url("../fonts/Samim-FD.woff") format("woff"), url("../fonts/Samim-FD.woff2") format("woff2"), url("../fonts/Samim-FD.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Samim"!important;
+    direction: rtl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header#header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/sky.png);
+    background-size: cover;
+}
+
+header nav {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #c00;
+}
+
+.for {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+}
+
+.sky {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /* height: 800px; */
+}
+
+.moon {
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    width: 150px;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    /*   margin-right: 40px; */
+}
+
+.wolf {
+    position: relative;
+    height: 900px;
+    background-image: url('../images/www.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wolf .wolf-title {
+    width: 100%;
+    text-align: center;
+}
+
+.wolf .wolf-title h1 {
+    font-size: 26px;
+    color: #fff
+}
+
+.wolf .wolf-title p {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.wolf .wolf-content p {
+    color: #000;
+}
+
+#monkey {
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/monkeytwo.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#monkey .monkey-title {
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+#monkey .monkey-title h1 {
+    font-size: 27px;
+}
+
+#monkey .monkey-title p {
+    font-size: 18px;
+}
+
+#monkey .monkey-content {
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+footer {
+    background-image: url('../images/lionbg.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+footer .overlay {
+    background-color: rgba(22, 2, 31, .98);
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+}
+
+footer .overlay .footer-title {
+    color: #fff;
+    text-align: center;
+}
+
+footer .overlay .footer-title h1 {
+    margin-bottom: 20px;
+}
+
+footer .overlay form {
+    margin: 60px auto;
+    width: 450px;
+    text-align: center;
+}
+
+footer .overlay form input {
+    width: 100%;
+    padding: 5px;
+    margin: 7px 0;
+    font-family: 'Samim';
+    font-size: 13px;
+}
+
+footer .overlay form button {
+    padding: 6px;
+    font-size: 15px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid rgb(19, 3, 26);
+    font-family: 'Samim';
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+footer .overlay form button:hover {
+    background-color: rgba(22, 2, 31, .98);
+    border: 1px solid rgb(240, 236, 241);
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .overlay .social {
+    margin: 20px 0;
+}
+
+footer .overlay .social ul {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer .overlay .social ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .overlay .description {
+    text-align: center;
+    color: #fff;
+    width: 500px;
+    margin: auto;
+}
+
+footer .overlay .description p {
+    text-align: justify;
+}

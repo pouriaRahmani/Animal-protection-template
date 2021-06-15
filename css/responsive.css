@@ -1,0 +1,75 @@
+@media (max-width:1200px) {
+    .wolf .wolf-content p {
+        color: #000;
+        width: 400px;
+        text-align: justify;
+    }
+    #monkey .monkey-title {
+        text-align: right;
+    }
+}
+
+@media (max-width:992px) {
+    header#header {
+        height: 700px;
+    }
+    .wolf .wolf-content p {
+        width: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    header#header {
+        height: 600px;
+    }
+    .moon {
+        width: 100px;
+    }
+    .wolf,
+    #monkey {
+        height: 700px;
+    }
+    .wolf .wolf-content p {
+        width: 200px;
+    }
+    #monkey .monkey-content p {
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media (max-width:576px) {
+    header#header {
+        height: 500px;
+    }
+    .wolf,
+    #monkey {
+        height: 400px;
+    }
+    .wolf .wolf-title h1 {
+        font-size: 22px;
+    }
+    .wolf .wolf-title p {
+        font-size: 14px;
+    }
+    .wolf .wolf-content p {
+        font-size: 13px;
+        top: 250px;
+        position: absolute;
+    }
+    #monkey .monkey-title h1 {
+        font-size: 22px;
+    }
+    #monkey .monkey-content p {
+        width: 300px;
+    }
+    .container {
+        width: 350px;
+    }
+    footer .overlay form {
+        width: 350px;
+    }
+    footer .overlay .description {
+        width: 350px;
+    }
+}
